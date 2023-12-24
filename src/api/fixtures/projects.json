@@ -1,0 +1,50 @@
+[
+  {
+    "_id": "1",
+    "image": "https://cdn.dribbble.com/userupload/12013616/file/original-1b7a818d3f7bd8651642f01e2692b024.jpg?resize=1905x1429",
+    "type": "MOBILE_APPLICATION",
+    "title": "Project Title 1",
+    "description": "The famous Greek salad of crispy lettuce, peppers, olives and our Chicago styled feta cheese, garnished with crunchy garlic, rosemary croutons.",
+    "technologies": ["Dart", "Flutter", "Firebase", "AWS"]
+  },
+  {
+    "_id": "2",
+    "image": "https://cdn.dribbble.com/userupload/11108527/file/original-29c307ab7f2819c2b39e699f79a1518f.png?resize=1905x1429",
+    "type": "WEB_APPLICATION",
+    "title": "Project Title 2",
+    "description": "The famous Greek salad of crispy lettuce, peppers, olives and our Chicago styled feta cheese, garnished with crunchy garlic, rosemary croutons.",
+    "technologies": ["Dart", "Flutter", "Firebase", "AWS"]
+  },
+  {
+    "_id": "3",
+    "image": "https://cdn.dribbble.com/userupload/11065342/file/original-b2bd65a095d0786d2244d14c29e58706.png?resize=1905x1429",
+    "type": "MOBILE_APPLICATION",
+    "title": "Project Title 3",
+    "description": "The famous Greek salad of crispy lettuce, peppers, olives and our Chicago styled feta cheese, garnished with crunchy garlic, rosemary croutons.",
+    "technologies": ["Dart", "Flutter", "Firebase", "AWS"]
+  },
+  {
+    "_id": "4",
+    "image": "https://cdn.dribbble.com/userupload/10047161/file/original-30f40a107ca798dc3600264995dc3284.png?resize=1905x1429",
+    "type": "GAME_APPLICATION",
+    "title": "Project Title 4",
+    "description": "The famous Greek salad of crispy lettuce, peppers, olives and our Chicago styled feta cheese, garnished with crunchy garlic, rosemary croutons.",
+    "technologies": ["Dart", "Flutter", "Firebase", "AWS"]
+  },
+  {
+    "_id": "5",
+    "image": "https://cdn.dribbble.com/userupload/10332953/file/original-cb6e3acc6d379532ce4549a0e649fd94.jpg?resize=1905x1667",
+    "type": "WEB_APPLICATION",
+    "title": "Project Title 5",
+    "description": "The famous Greek salad of crispy lettuce, peppers, olives and our Chicago styled feta cheese, garnished with crunchy garlic, rosemary croutons.",
+    "technologies": ["Dart", "Flutter", "Firebase", "AWS"]
+  },
+  {
+    "_id": "6",
+    "image": "https://cdn.dribbble.com/userupload/10909464/file/original-312176018747103fe8af45435dd899d7.jpg?resize=1905x1429",
+    "type": "MOBILE_APPLICATION",
+    "title": "Project Title 6",
+    "description": "The famous Greek salad of crispy lettuce, peppers, olives and our Chicago styled feta cheese, garnished with crunchy garlic, rosemary croutons.",
+    "technologies": ["Dart", "Flutter", "Firebase", "AWS"]
+  }
+]

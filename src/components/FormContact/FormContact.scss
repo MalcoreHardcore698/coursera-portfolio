@@ -1,0 +1,16 @@
+@import '~theme/_variables';
+@import '~theme/_mixins';
+
+.form-contact {
+  @include flex-container(column);
+
+  width: 320px;
+  background: $color-surface;
+  border-radius: $border-radius-l;
+  backdrop-filter: blur(10px);
+  padding: $space-l;
+
+  textarea {
+    resize: none;
+  }
+}

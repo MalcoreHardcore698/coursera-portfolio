@@ -1,0 +1,11 @@
+@import '~theme/_variables';
+
+section.section-projects {
+  position: relative;
+  z-index: 4;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  margin: $space-m $media-space-l;
+  padding-block-end: $space-xl;
+  gap: $space-l;
+}

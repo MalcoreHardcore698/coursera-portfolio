@@ -1,0 +1,28 @@
+{
+  "name": "Dan Popov",
+  "description": "I am an empathetic, friendly, and sharp-eyed developer, who values teamwork, communication, and feedback. I am self-organized, adaptable, and proactive, always seeking ways to improve myself and my work. My goal is to create impactful and meaningful solutions that enhance the user experience and meet business needs.",
+  "photo": "",
+  "socials": [
+    {
+      "name": "Medium",
+      "url": "https://medium.com/@malcore",
+      "icon": "MEDIUM"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/MalcoreHardcore698",
+      "icon": "GITHUB"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/malcore/",
+      "icon": "LINKEDIN"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://telegram.me/Malcore",
+      "icon": "TELEGRAM"
+    }
+  ],
+  "birthday": "Nov 11, 1999"
+}

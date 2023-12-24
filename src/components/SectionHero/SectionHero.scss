@@ -1,0 +1,91 @@
+@import '~theme/_variables';
+@import '~theme/_mixins';
+
+@mixin set-axis($multiplyer: 1) {
+  $default-size: 382px;
+  $axis-size: calc($default-size * $multiplyer);
+
+  position: absolute;
+  top: calc(50% - ($axis-size / 2));
+  left: calc(50% - ($axis-size / 2));
+  width: $axis-size;
+  height: $axis-size;
+}
+
+section.section-hero {
+  @include flex-center;
+
+  width: 100%;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+
+  h1 {
+    font-size: 3em;
+  }
+
+  img {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  }
+
+  .section-hero__name {
+    @include flex-container(column, center, flex-end);
+
+    position: relative;
+    z-index: 4;
+    text-transform: uppercase;
+    font-size: 4em;
+    font-weight: $font-weight-xxl;
+    line-height: $font-size-s;
+    text-align: right;
+    flex-basis: 30%;
+    gap: $space-m;
+
+    span:last-child {
+      font-size: 18px;
+      font-weight: $font-weight-xl;
+      line-height: 1.25;
+      width: 240px;
+    }
+  }
+
+  .section-hero__orbit {
+    position: relative;
+
+    .orbit-axis {
+      @include set-axis();
+
+      border: 2px solid rgba(255, 255, 255, 0.05);
+      border-radius: 50%;
+
+      &.axis-inner {
+        @include set-axis(1.7);
+      }
+
+      &.axis-outer {
+        @include set-axis(2.8);
+      }
+
+      &.axis-belt {
+        @include set-axis(4);
+      }
+    }
+
+    .orbit-avatar {
+      position: relative;
+      z-index: 1;
+
+      .avatar-placeholder {
+        background: $color-background;
+        object-fit: contain;
+        flex-basis: 50%;
+      }
+    }
+  }
+}

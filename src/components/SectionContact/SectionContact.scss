@@ -1,0 +1,22 @@
+@import '~theme/_variables';
+@import '~theme/_mixins';
+
+section.section-contact {
+  @include flex-container(column, center, center);
+
+  position: relative;
+  margin: $space-l $media-space-l;
+  padding-block-end: $space-xl;
+  gap: $space-l;
+
+  .section-contact__background {
+    position: absolute;
+    top: -$size-xl;
+    right: 0;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  }
+}

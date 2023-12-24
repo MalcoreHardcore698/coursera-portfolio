@@ -1,0 +1,28 @@
+@import '~theme/_variables';
+@import '~theme/_mixins';
+@import '~theme/_media';
+
+.description {
+  @include surface;
+
+  gap: $space-s;
+
+  h4.description-title {
+    font-size: $font-size-l;
+    font-weight: $font-weight-xl;
+  }
+
+  .description-footer {
+    @include flex-container(row);
+
+    gap: $space-xs;
+
+    font-size: $font-size-s;
+    font-weight: $font-weight-s;
+
+    a, span {
+      font-size: inherit;
+      font-weight: inherit;
+    }
+  }
+}
