@@ -39,15 +39,4 @@ export type TProject = {
   technologies: string[];
 };
 
-export type TExperience = {
-  _id: string;
-  title: string;
-  company: TCompany;
-  location: string;
-  employmentAt: string;
-  terminationAt: string | null;
-};
-
 export type TProjects = Array<TProject>;
-
-export type TCareer = Array<TExperience>;

@@ -1,4 +1,4 @@
-import type { TAbout, TCareer, TProjects } from 'types';
+import type { TAbout, TProjects } from 'types';
 import { ESocialIcon } from 'types';
 
 import about from './fixtures/about.json';
